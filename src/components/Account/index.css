@@ -1,0 +1,105 @@
+.account-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.account-content {
+  width: 78%;
+  max-width: 1100px;
+  margin: 40px auto 0;
+  flex: 1;
+}
+
+.account-content h1 {
+  font-size: 24px;
+  color: #1f2937;
+  margin: 0 0 15px;
+}
+
+.account-line {
+  width: 100%;
+  height: 1px;
+  background-color: #cbd5e1;
+}
+
+.account-row {
+  min-height: 73px;
+  display: flex;
+  align-items: center;
+}
+
+.account-label {
+  width: 98px;
+  color: #94a3b8;
+  font-size: 14px;
+  margin: 0;
+}
+
+.account-value {
+  margin-left: 0;
+}
+
+.account-value p {
+  color: #334155;
+  font-size: 14px;
+  margin: 0 0 8px;
+}
+
+.account-value p:last-child {
+  margin-bottom: 0;
+}
+
+.plan-value {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.plan-value p {
+  margin: 0;
+}
+
+.plan-value span {
+  border: 1px solid #64748b;
+  color: #334155;
+  font-size: 11px;
+  padding: 1px 3px;
+}
+
+.logout-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+}
+
+.logout-container button {
+  background-color: #e50914;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  padding: 7px 15px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.logout-container button:hover {
+  background-color: #b20710;
+}
+
+.account-footer {
+  height: 126px;
+  background-color: #171717;
+  color: #ffffff;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.account-footer p {
+  font-size: 10px;
+  margin: 0;
+}

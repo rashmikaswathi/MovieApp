@@ -1,0 +1,154 @@
+.movie-details-container {
+  min-height: 100vh;
+  background-color: #181818;
+  color: #ffffff;
+}
+
+.movie-details-banner {
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.movie-details-overlay {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  padding: 40px 8%;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.95),
+    rgba(0, 0, 0, 0.65),
+    rgba(0, 0, 0, 0.2)
+  );
+}
+
+.movie-details-content {
+  max-width: 600px;
+}
+
+.movie-details-content h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.movie-meta {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  color: #dddddd;
+}
+
+.movie-overview {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #eeeeee;
+}
+
+.play-button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.movie-info-section {
+  display: flex;
+  gap: 70px;
+  padding: 40px 8%;
+  flex-wrap: wrap;
+}
+
+.movie-info-section h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.movie-info-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.movie-info-section li {
+  margin-bottom: 8px;
+  color: #cccccc;
+}
+
+.movie-info-section p {
+  color: #cccccc;
+}
+
+.similar-movies-section {
+  padding: 20px 8% 50px;
+}
+
+.similar-movies-section h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.similar-movies-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.loader-container {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-view {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.failure-view h1 {
+  font-size: 24px;
+}
+
+.failure-view button {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .movie-details-content h1 {
+    font-size: 30px;
+  }
+
+  .movie-details-overlay {
+    padding: 30px 20px;
+  }
+
+  .movie-info-section {
+    padding: 30px 20px;
+    gap: 30px;
+  }
+
+  .similar-movies-section {
+    padding: 20px;
+  }
+
+  .similar-movies-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+}

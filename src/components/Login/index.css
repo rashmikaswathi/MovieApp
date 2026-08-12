@@ -1,0 +1,145 @@
+.login-page {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/dssn7vrc0/image/upload/v1785911438/netfilx_1_bvqyzh.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.login-overlay {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  position: relative;
+}
+
+/* MOVIES logo */
+
+.login-header {
+  position: absolute;
+  top: 35px;
+  left: 8%;
+}
+
+.login-logo {
+  width: 140px;
+}
+
+/* Login box */
+
+.login-form-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  width: 360px;
+  min-height: 340px;
+  padding: 45px 38px;
+  background-color: rgba(0, 0, 0, 0.72);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+/* Login heading */
+
+.login-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+/* Input */
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.input-label {
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.login-input {
+  height: 42px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 0 12px;
+  font-size: 13px;
+}
+
+.login-input::placeholder {
+  color: #a0a0a0;
+}
+
+/* Error */
+
+.error-message {
+  color: #ff0000;
+  font-size: 13px;
+  margin-top: -5px;
+  margin-bottom: 15px;
+}
+
+/* Button */
+
+.login-button {
+  width: 100%;
+  height: 42px;
+  border: none;
+  border-radius: 4px;
+  background-color: #e50914;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.login-button:hover {
+  background-color: #b80710;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 576px) {
+  .login-header {
+    top: 25px;
+    left: 25px;
+  }
+
+  .login-logo {
+    width: 100px;
+  }
+
+  .login-form-container {
+    padding: 20px;
+  }
+
+  .login-form {
+    width: 100%;
+    max-width: 360px;
+    padding: 40px 25px;
+    background-color: transparent;
+  }
+
+  .login-heading {
+    font-size: 28px;
+  }
+}

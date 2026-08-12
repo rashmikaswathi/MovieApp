@@ -1,0 +1,1010 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/account\" is provided as the URL path by an unauthenticated user, then the page should be navigated to Login Route and should consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_2",
+      "evaluation_result": "INCORRECT",
+      "title": "When \"/account\" is provided as the URL path by an authenticated user, then the page should be navigated to Account Route and should consist of an HTML main heading element with text content as \"Account\"",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_3",
+      "evaluation_result": "INCORRECT",
+      "title": "Account Route should consist of an HTML main heading element with text content as \"Account\"",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_4",
+      "evaluation_result": "INCORRECT",
+      "title": "Account Route should consist of an HTML paragraph element with text content as \"Member ship\"",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_5",
+      "evaluation_result": "INCORRECT",
+      "title": "Account Route should consist of an HTML paragraph element with text content as \"Password\"",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_6",
+      "evaluation_result": "INCORRECT",
+      "title": "Account Route should consist of an HTML paragraph element with text content as \"Plan details \"",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_7",
+      "evaluation_result": "INCORRECT",
+      "title": "Account Route should consist of an HTML paragraph element with text content as \"Premium\"",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_8",
+      "evaluation_result": "INCORRECT",
+      "title": "Account Route should consist of an HTML paragraph element with text content as \"Ultra HD\"",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_9",
+      "evaluation_result": "INCORRECT",
+      "title": "Account Route should consist of an HTML button element with text content as \"Logout\"",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_10",
+      "evaluation_result": "INCORRECT",
+      "title": "When the \"Logout\" button in the Account Route is clicked, then the Cookies.remove() method should be called with the argument as \"jwt_token\"",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_11",
+      "evaluation_result": "INCORRECT",
+      "title": "When the \"Logout\" button in the Account Route is clicked, then the page should be navigated to Login Route and should consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_12",
+      "evaluation_result": "INCORRECT",
+      "title": "Home Route should consist of an HTML paragraph element in the footer with text content as \"Contact us\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_13",
+      "evaluation_result": "INCORRECT",
+      "title": "Popular Route should consist of an HTML paragraph element in the footer with text content as \"Contact us\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_14",
+      "evaluation_result": "INCORRECT",
+      "title": "Movie Item Details Route should consist of an HTML paragraph element in the footer with text content as \"Contact us\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_15",
+      "evaluation_result": "INCORRECT",
+      "title": "Account Route should consist of an HTML paragraph element in the footer with text content as \"Contact us\"",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_16",
+      "evaluation_result": "INCORRECT",
+      "title": "Home Route should consist of an HTML image element in the Header with alt attribute value as \"website logo\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_17",
+      "evaluation_result": "INCORRECT",
+      "title": "Home Route should consist of an HTML image element in the Header with alt attribute value as \"website logo\", wrapped with Link from react-router-dom",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_18",
+      "evaluation_result": "INCORRECT",
+      "title": "Home Route should consist of at least one HTML unordered list element to display the list of nav items in the Header",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_19",
+      "evaluation_result": "INCORRECT",
+      "title": "Home Route should consist of HTML list elements to display the nav items in the Header",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_20",
+      "evaluation_result": "INCORRECT",
+      "title": "Home Route should consist of an HTML element with text content as \"Home\" wrapped with Link from react-router-dom",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_21",
+      "evaluation_result": "INCORRECT",
+      "title": "Popular Route should consist of an HTML element with text content as \"Home\" wrapped with Link from react-router-dom",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_22",
+      "evaluation_result": "INCORRECT",
+      "title": "Search Route should consist of an HTML element with text content as \"Home\" wrapped with Link from react-router-dom",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_23",
+      "evaluation_result": "INCORRECT",
+      "title": "Movie Item Details Route should consist of an HTML element with text content as \"Home\" wrapped with Link from react-router-dom",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_24",
+      "evaluation_result": "INCORRECT",
+      "title": "Account Route should consist of an HTML element with text content as \"Home\" wrapped with Link from react-router-dom",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_25",
+      "evaluation_result": "INCORRECT",
+      "title": "Home Route should consist of an HTML element with text content as \"Popular\" wrapped with Link from react-router-dom",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_26",
+      "evaluation_result": "INCORRECT",
+      "title": "Home Route should consist of an HTML button element with data-testid attribute value as \"searchButton\" in the Header",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_27",
+      "evaluation_result": "INCORRECT",
+      "title": "Home Route should consist of an HTML image element in the Header with alt attribute value as \"profile\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_28",
+      "evaluation_result": "INCORRECT",
+      "title": "When the website logo in the Header is clicked, then the page should be navigated to Home Route and consist of an HTML main heading element with text content as \"Trending Now\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_29",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Home link in the Header is clicked in the Popular Route, then the page should be navigated to Home Route and consist of an HTML main heading element with text content as \"Trending Now\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_30",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Home link in the Header is clicked in the Search Route, then the page should be navigated to Home Route and consist of an HTML main heading element with text content as \"Trending Now\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_31",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Home link in the Header is clicked in the Movie Item Details Route, then the page should be navigated to Home Route and consist of an HTML main heading element with text content as \"Trending Now\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_32",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Home link in the Header is clicked in the Account Route, then the page should be navigated to Home Route and consist of an HTML main heading element with text content as \"Trending Now\"",
+      "errorMessages": [
+        "useNavigate() may be used only in the context of a <Router> component."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_33",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Popular link in the Header is clicked in the Home Route, then the page should be navigated to Popular Route and consist of HTML image element with alt and src values as the values of the keys \"title\" in each option of the corresponding movie item received from the response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_34",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Home Route is opened, an HTTP GET request should be made to the Trending Now Movies API URL",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_35",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Home Route is opened, an HTTP GET request should be made to the Originals API URL",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_36",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Home Route is successful, then the page should consist of an HTML main heading element with text content as the value of the key \"title\" taken randomly from received originals response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_37",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Home Route is successful, then the page should consist of an HTML main heading element with text content as the value of the key \"overview\" taken randomly from received originals response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_38",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/\" is provided as the URL path by an unauthenticated user, then the page should be navigated to Login Route and should consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_39",
+      "evaluation_result": "INCORRECT",
+      "title": "When \"/\" is provided as the URL path by an authenticated user, then the page should be navigated to Home Route and it consist of HTML image elements with alt and src as the values of the keys \"name\" and \"poster_path\" respectively from the trending now movies and originals responses received",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_40",
+      "evaluation_result": "INCORRECT",
+      "title": "Home Route should consist of an HTML main heading element with text content as \"Trending Now\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_41",
+      "evaluation_result": "INCORRECT",
+      "title": "Home Route should consist of an HTML main heading element with text content as \"Originals\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_42",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Home Route is opened, an HTML container elements with data-testid attribute value as \"loader\" should be displayed while the HTTP GET request is in progress",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_43",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Home Route is successful, then the page should consist of an HTML button element with text content as \"Play\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_44",
+      "evaluation_result": "INCORRECT",
+      "title": "When the movie item in the trending now movies slider is clicked in the Home Route, then the page should be navigated to movieItemDetails Route with \"/movies/:id\" in the URL path",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_45",
+      "evaluation_result": "INCORRECT",
+      "title": "When the movie item in the original movies slider is clicked in the Home Route, then the page should be navigated to movieItemDetails Route with \"/movies/:id\" in the URL path",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_46",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to Trending Now Movies API URL in the Home Route is unsuccessful, then the page should consist of an HTML image element with alt attribute value as \"failure view\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_47",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to Trending Now Movies API URL in the Home Route is unsuccessful, then the page should consist of an HTML paragraph element with text content as \"Something went wrong. Please try again\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_48",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to Trending Now Movies API URL in the Home Route is unsuccessful, then the page should consist of an HTML button element with text content as \"Try Again\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_49",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to Trending Now Movies API URL in the Home Route is unsuccessful and the \"Try Again\" button is clicked, then an HTTP GET request should be made to Trending Now Movies API URL",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_50",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to Originals API URL in the Home Route is unsuccessful, then the page should consist of an HTML image element with alt attribute value as \"failure view\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_51",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to Originals API URL in the Home Route is unsuccessful, then the page should consist of an HTML paragraph element with text content as \"Something went wrong. Please try again\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_52",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to Originals API URL in the Home Route is unsuccessful, then the page should consist of an HTML button element with text content as \"Try Again\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_53",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to Originals API URL in the Home Route is unsuccessful and the \"Try Again\" button is clicked, then an HTTP GET request should be made to Originals API URL",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_54",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/login\" is provided as the URL path by an unauthenticated user, then the page should be navigated to Login Route and should consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_55",
+      "evaluation_result": "INCORRECT",
+      "title": "When \"/login\" is provided as the URL path by an authenticated user, then the page should consist of HTML image elements with alt and src as the values of the keys \"name\" and \"poster_path\" respectively from the trending now movies and originals response received",
+      "errorMessages": [
+        "Unable to find role=\"img\" and name `/No Time to Die/i`\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"login-page\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"login-overlay\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<header\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"login-header\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<img\u001b[39m\n            \u001b[33malt\u001b[39m=\u001b[32m\"login website logo\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"login-logo\"\u001b[39m\n            \u001b[33msrc\u001b[39m=\u001b[32m\"https://res.cloudinary.com/dssn7vrc0/image/upload/v1785911652/Group_7399_qxuseu.png\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</header>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"login-form-container\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<form\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"login-form\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<h1\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"login-heading\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mLogin\u001b[0m\n            \u001b[36m</h1>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"input-container\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<label\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"input-label\"\u001b[39m\n                \u001b[33mfor\u001b[39m=\u001b[32m\"username\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mUSERNAME\u001b[0m\n              \u001b[36m</label>\u001b[39m\n              \u001b[36m<input\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"login-input\"\u001b[39m\n                \u001b[33mid\u001b[39m=\u001b[32m\"username\"\u001b[39m\n                \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Enter Username\"\u001b[39m\n                \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n                \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[36m/>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"input-container\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<label\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"input-label\"\u001b[39m\n                \u001b[33mfor\u001b[39m=\u001b[32m\"password\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mPASSWORD\u001b[0m\n              \u001b[36m</label>\u001b[39m\n              \u001b[36m<input\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"login-input\"\u001b[39m\n                \u001b[33mid\u001b[39m=\u001b[32m\"password\"\u001b[39m\n                \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Enter Password\"\u001b[39m\n                \u001b[33mtype\u001b[39m=\u001b[32m\"password\"\u001b[39m\n                \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[36m/>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n            \u001b[36m<button\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"login-button\"\u001b[39m\n              \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mLogin\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</form>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div>\u001b[39m\n    \u001b[36m<div\u001b[39m\n      \u001b[33mclass\u001b[39m=\u001b[32m\"login-page\"\u001b[39m\n    \u001b[36m>\u001b[39m\n      \u001b[36m<div\u001b[39m\n        \u001b[33mclass\u001b[39m=\u001b[32m\"login-overlay\"\u001b[39m\n      \u001b[36m>\u001b[39m\n        \u001b[36m<header\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"login-header\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<img\u001b[39m\n            \u001b[33malt\u001b[39m=\u001b[32m\"login website logo\"\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"login-logo\"\u001b[39m\n            \u001b[33msrc\u001b[39m=\u001b[32m\"https://res.cloudinary.com/dssn7vrc0/image/upload/v1785911652/Group_7399_qxuseu.png\"\u001b[39m\n          \u001b[36m/>\u001b[39m\n        \u001b[36m</header>\u001b[39m\n        \u001b[36m<div\u001b[39m\n          \u001b[33mclass\u001b[39m=\u001b[32m\"login-form-container\"\u001b[39m\n        \u001b[36m>\u001b[39m\n          \u001b[36m<form\u001b[39m\n            \u001b[33mclass\u001b[39m=\u001b[32m\"login-form\"\u001b[39m\n          \u001b[36m>\u001b[39m\n            \u001b[36m<h1\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"login-heading\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mLogin\u001b[0m\n            \u001b[36m</h1>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"input-container\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<label\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"input-label\"\u001b[39m\n                \u001b[33mfor\u001b[39m=\u001b[32m\"username\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mUSERNAME\u001b[0m\n              \u001b[36m</label>\u001b[39m\n              \u001b[36m<input\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"login-input\"\u001b[39m\n                \u001b[33mid\u001b[39m=\u001b[32m\"username\"\u001b[39m\n                \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Enter Username\"\u001b[39m\n                \u001b[33mtype\u001b[39m=\u001b[32m\"text\"\u001b[39m\n                \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[36m/>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n            \u001b[36m<div\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"input-container\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[36m<label\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"input-label\"\u001b[39m\n                \u001b[33mfor\u001b[39m=\u001b[32m\"password\"\u001b[39m\n              \u001b[36m>\u001b[39m\n                \u001b[0mPASSWORD\u001b[0m\n              \u001b[36m</label>\u001b[39m\n              \u001b[36m<input\u001b[39m\n                \u001b[33mclass\u001b[39m=\u001b[32m\"login-input\"\u001b[39m\n                \u001b[33mid\u001b[39m=\u001b[32m\"password\"\u001b[39m\n                \u001b[33mplaceholder\u001b[39m=\u001b[32m\"Enter Password\"\u001b[39m\n                \u001b[33mtype\u001b[39m=\u001b[32m\"password\"\u001b[39m\n                \u001b[33mvalue\u001b[39m=\u001b[32m\"\"\u001b[39m\n              \u001b[36m/>\u001b[39m\n            \u001b[36m</div>\u001b[39m\n            \u001b[36m<button\u001b[39m\n              \u001b[33mclass\u001b[39m=\u001b[32m\"login-button\"\u001b[39m\n              \u001b[33mtype\u001b[39m=\u001b[32m\"submit\"\u001b[39m\n            \u001b[36m>\u001b[39m\n              \u001b[0mLogin\u001b[0m\n            \u001b[36m</button>\u001b[39m\n          \u001b[36m</form>\u001b[39m\n        \u001b[36m</div>\u001b[39m\n      \u001b[36m</div>\u001b[39m\n    \u001b[36m</div>\u001b[39m\n  \u001b[36m</div>\u001b[39m\n\u001b[36m</body>\u001b[39m"
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_56",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML form element",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_57",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML image element with alt attribute value as \"login website logo\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_58",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML input element with label text as \"USERNAME\" and type attribute value as \"text\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_59",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML input element with label text as \"PASSWORD\" and type attribute value as \"password\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_60",
+      "evaluation_result": "CORRECT",
+      "title": "Login Route should consist of an HTML button element with text content as \"Login\" and type attribute value as \"submit\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_61",
+      "evaluation_result": "CORRECT",
+      "title": "When a non-empty value is provided in the HTML input element with the label text as \"USERNAME\", then the value provided should be displayed in the HTML input element",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_62",
+      "evaluation_result": "CORRECT",
+      "title": "When a non-empty value is provided in the HTML input element with the label text as \"PASSWORD\", then the value provided should be displayed in the HTML input element",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_63",
+      "evaluation_result": "CORRECT",
+      "title": "When non-empty values are provided for username and password input and the Login button is clicked, an HTTP POST request should be made to Login API URL",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_64",
+      "evaluation_result": "CORRECT",
+      "title": "When non-empty values are provided for username and password input and the Login button is clicked, then an HTTP POST request should be made to Login API URL with request object containing the keys \"username\" and \"password\" with the values provided respectively",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_65",
+      "evaluation_result": "CORRECT",
+      "title": "When an invalid username and password are provided and the Login button is clicked, then the page should consist of an HTML paragraph element with text content as respective error message and the page should not be navigated",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_66",
+      "evaluation_result": "CORRECT",
+      "title": "When a valid username and password are provided and the Login button is clicked, then the Cookies.set() method should be called with three arguments - \"jwt_token\" string as the first argument, JWT token value as the second argument, and expiry days as the third argument",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_67",
+      "evaluation_result": "INCORRECT",
+      "title": "When a valid username and password are provided and the Login button is clicked, then the page should be navigated to Home Route and consist of HTML image elements with alt and src as the values of the keys \"name\" and \"poster_path\" from the trending now movies and originals responses received",
+      "errorMessages": [
+        "Unable to find role=\"img\" and name `/No Time to Die/i`\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div />\u001b[39m\n\u001b[36m</body>\u001b[39m\n\nIgnored nodes: comments, script, style\n\u001b[36m<body>\u001b[39m\n  \u001b[36m<div />\u001b[39m\n\u001b[36m</body>\u001b[39m"
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_68",
+      "evaluation_result": "INCORRECT",
+      "title": "When HTTP GET request in the movieItemDetails Route is successful, then the page should consist of at least two HTML list items, and the Genres List, Spoken Languages List and Similar Movies List should be rendered using a unique key as a prop to display each genre, spoken language and similar movie item respectively",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_69",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Movie Item Details Route is opened, an HTTP GET request should be made to the Movie Item Details API URL",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_70",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/movies/:id\" is provided as the URL path by an unauthenticated user, then the page should be navigated to Login Route and should consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_71",
+      "evaluation_result": "INCORRECT",
+      "title": "When \"/movies/:id\" is provided as the URL path by an authenticated user, then the page should be navigated to movieItemDetails Route and should consist of an HTML main heading element with text content as the value of the key \"title\" from received movieItemDetails response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_72",
+      "evaluation_result": "INCORRECT",
+      "title": "Movie Item Details Route should consist of an HTML button element with text content as \"Play\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_73",
+      "evaluation_result": "INCORRECT",
+      "title": "Movie Item Details Route should consist of an HTML main heading element with text content as \"More like this\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_74",
+      "evaluation_result": "INCORRECT",
+      "title": "Movie Item Details Route should consist of an HTML main heading element with text content as \"genres\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_75",
+      "evaluation_result": "INCORRECT",
+      "title": "Movie Item Details Route should consist of an HTML main heading element with text content as \"Audio Available\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_76",
+      "evaluation_result": "INCORRECT",
+      "title": "Movie Item Details Route should consist of an HTML main heading element with text content as \"Rating Count\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_77",
+      "evaluation_result": "INCORRECT",
+      "title": "Movie Item Details Route should consist of an HTML main heading element with text content as \"Rating Average\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_78",
+      "evaluation_result": "INCORRECT",
+      "title": "Movie Item Details Route should consist of an HTML main heading element with text content as \"Budget\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_79",
+      "evaluation_result": "INCORRECT",
+      "title": "Movie Item Details Route should consist of an HTML main heading element with text content as \"Release Date\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_80",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Movie Item Details Route is opened, an HTML container element with data-testid attribute value as \"loader\" should be displayed while the HTTP GET request is in progress",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_81",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an least two HTML unordered list elements to display Genres List, Spoken Languages List and Similar Movies List received from the movieItemDetails response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_82",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an HTML main heading element with text content as the value of the key \"title\" from the received movieItemDetails response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_83",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an HTML paragraph element with text content based on the value of the key \"runtime\" from the received movieItemDetails response should be converted from minutes to hours and minutes",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_84",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an HTML paragraph element with text content based on the value of the key \"adult\" from the movieItemDetails response is true then it should be displayed as A. otherwise, it should be displayed as U/A",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_85",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as year deriving from the value of the key \"release_date\" from the received movieItemDetails response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_86",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \"overview\" from the received movieItemDetails response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_87",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an HTML paragraph elements with text content as the value of the key \"name\" in genres from the received movieItemDetails response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_88",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an HTML paragraph elements with text content as the value of the key \"english_name\" in spoken_languages from the received movieItemDetails response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_89",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \"vote_count\" from the received movieItemDetails response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_90",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \"vote_average\" from the received movieItemDetails response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_91",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \"budget\" from the received movieItemDetails response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_92",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an HTML paragraph element with text content as the value of the key \"release_date\" from the received movieItemDetails response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_93",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Movie Item Details Route is successful, then the page should consist of an HTML image elements with alt and src as the values of the keys \"title\" and \"poster_path\" respectively in \"similar_movies\" from the received Movie Item Details response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_94",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to movieItemDetailsApiUrl in the Movie Item Details Route is unsuccessful, then the page should consist of an HTML image element with alt attribute value as \"failure view\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_95",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to movieItemDetailsApiUrl in the Home Route is unsuccessful, then the page should consist of an HTML paragraph element with text content as \"Something went wrong. Please try again\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_96",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to movieItemDetailsApiUrl in the Home Route is unsuccessful, then the page should consist of an HTML button element with text content as \"Try Again\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_97",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to movieItemDetailsApiUrl in the Home Route is unsuccessful and the \"Try Again\" button is clicked, then an HTTP GET request should be made to Movie Item Details API URL",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_98",
+      "evaluation_result": "INCORRECT",
+      "title": "When a random path is provided as the URL path, then the page should consist of an HTML main heading element with text content as \"Lost Your Way\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_99",
+      "evaluation_result": "INCORRECT",
+      "title": "When a random path is provided as the URL path, then the page should consist of an HTML paragraph element with text content as \"we are sorry, the page you requested could not be found Please go back to the homepage.\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_100",
+      "evaluation_result": "INCORRECT",
+      "title": "When a random path is provided as the URL path, then the page should consist of an HTML button element with text content as \"Go to Home\" wrapper with Link from react-router-dom",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_101",
+      "evaluation_result": "INCORRECT",
+      "title": "When a random path is provided as the URL path, then the page should consist of an HTML button element with text content as \"Go to Home\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_102",
+      "evaluation_result": "INCORRECT",
+      "title": "When a random path is provided as the URL path and the \"Go to Home\" button is clicked, then the page should be navigated to Home Route and consists of an HTML main heading element with text content as \"Trending Now\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_103",
+      "evaluation_result": "INCORRECT",
+      "title": "When HTTP GET request in the popular Route is successful, then the page should consist of at least two HTML list items, and the popular movies List should be rendered using a unique key as a prop to display each popular movie item respectively",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_104",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Popular Route is opened, an HTTP GET request should be made to the Popular Movies API URL",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_105",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/popular\" is provided as the URL path by an unauthenticated user, then the page should be navigated to Login Route and should consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_106",
+      "evaluation_result": "INCORRECT",
+      "title": "When \"/popular\" is provided as the URL path by an authenticated user, then the page should be navigated to Popular Route and should consist of an HTML image element with alt and src as the values of the keys \"title\" and \"poster_path\" respectively from the popular movies response received",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_107",
+      "evaluation_result": "INCORRECT",
+      "title": "When the Popular Route is opened, an HTML container element with data-testid attribute value as \"loader\" should be displayed while the HTTP GET request is in progress",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_108",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Popular Route is successful, then the page should consist of an HTML unordered list element to display the popular movies List received from the popular movies response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_109",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Popular Route is successful, then the page should consist of HTML image elements wrapped with Link from react-router-dom",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_110",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request in the Popular Route is successful, then the page should consist of HTML image elements with alt and src as the values of the keys \"title\" and \"poster_path\" respectively from the popular movies response received",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_111",
+      "evaluation_result": "INCORRECT",
+      "title": "When the movie item is clicked in the Popular Route, then the page should be navigated to Movie Item Details Route with \"/movies/:id\" in the URL path",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_112",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to popularMoviesApiUrl in the Popular Route is unsuccessful, then the page should consist of an HTML image element with alt attribute value as \"failure view\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_113",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to popularMoviesApiUrl in the Popular Route is unsuccessful, then the page should consist of an HTML paragraph element with text content as \"Something went wrong. Please try again\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_114",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to popularMoviesApiUrl in the Popular Route is unsuccessful, then the page should consist of an HTML button element with text content as \"Try Again\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_115",
+      "evaluation_result": "INCORRECT",
+      "title": "When the HTTP GET request made to popularMoviesApiUrl in the Popular Route is unsuccessful and the \"Try Again\" button is clicked, then an HTTP GET request should be made to Popular Movies API URL",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_116",
+      "evaluation_result": "INCORRECT",
+      "title": "When a non-empty value is provided in search input and search button is clicked and the HTTP GET request is successful, then the page should consist of at least two HTML list items, and the movies List should be rendered using a unique key as a prop to display each movie item respectively",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_117",
+      "evaluation_result": "CORRECT",
+      "title": "When \"/search\" is provided as the URL path by an unauthenticated user, then the page should be navigated to Login Route and should consist of an HTML button element with text content as \"Login\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_118",
+      "evaluation_result": "INCORRECT",
+      "title": "When \"/search\" is provided as the URL path by an authenticated user, then the page should be navigated to Search Route",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_119",
+      "evaluation_result": "INCORRECT",
+      "title": "When a non-empty value is provided in an HTML input element for search and an HTML button element with data-testid attribute value as \"searchButton\" is clicked, an HTTP GET request should be made to the Search Movies API URL with the value provided in the search input element as the value to query parameter \"query\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_120",
+      "evaluation_result": "INCORRECT",
+      "title": "Search Route should consist of an HTML search input element with type attribute value as \"search\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_121",
+      "evaluation_result": "INCORRECT",
+      "title": "When a non-empty value is provided in an HTML search input element for search and an HTML button element with data-testid attribute value as \"searchButton\" is clicked, an HTML container element with data-testid attribute value as \"loader\" should be displayed while the HTTP GET request is in progress",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_122",
+      "evaluation_result": "INCORRECT",
+      "title": "When a non-empty value is provided in search input and search button is clicked and the HTTP GET request in the Search Route is successful, then the page should consist of an HTML unordered list element to display the movies List received from the search movies response",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_123",
+      "evaluation_result": "INCORRECT",
+      "title": "When a non-empty value is provided in search input and search button is clicked and the HTTP GET request in the Search Route is successful, then the page should consist of an image element with alt and src as the values of the keys \"title\" and \"poster_path\" from the search movies response received",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_124",
+      "evaluation_result": "INCORRECT",
+      "title": "When the movie item is clicked in the Search Route, then the page should be navigated to Movie Item Details Route with \"/movies/:id\" in the URL path",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_125",
+      "evaluation_result": "INCORRECT",
+      "title": "When a non-empty value is provided in search input and search button is clicked and the HTTP GET request in the Search Route returns the movies list as empty, then the page should consist of an HTML image element with alt attribute value as \"no movies\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_126",
+      "evaluation_result": "INCORRECT",
+      "title": "When a non-empty value is provided in search input and search button is clicked and the HTTP GET request in the Search Route returns the movies list as empty, then the page should consist of an HTML paragraph element with text content as \"Your search for {searchValue} did not find any matches.\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_127",
+      "evaluation_result": "INCORRECT",
+      "title": "When a non-empty value is provided in search input and search button is clicked and the HTTP GET request in the Search Route is unsuccessful, then the page should consist of an HTML image element with alt attribute value as \"failure view\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_128",
+      "evaluation_result": "INCORRECT",
+      "title": "When a non-empty value is provided in search input and search button is clicked and the HTTP GET request in the Search Route is unsuccessful, then the page should consist of an HTML main heading element with text content as \"Something went wrong. Please try again\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_129",
+      "evaluation_result": "INCORRECT",
+      "title": "When a non-empty value is provided in search input and search button is clicked and the HTTP GET request in the Search Route is unsuccessful, then the page should consist of an HTML button element with text content as \"Try Again\"",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    },
+    {
+      "test_case_id": "RJSCP6FQL8_TEST_130",
+      "evaluation_result": "INCORRECT",
+      "title": "When a non-empty value is provided in search input and search button is clicked and the HTTP GET request in the Search Route is unsuccessful and the \"Try Again\" button is clicked, then an HTTP GET request should be made to Search Movies API URL",
+      "errorMessages": [
+        "Cannot destructure property 'basename' of 'React__namespace.useContext(...)' as it is null."
+      ]
+    }
+  ]
+}

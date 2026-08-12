@@ -1,0 +1,157 @@
+.movie-search-container {
+  min-height: 100vh;
+  background-color: #181818;
+  color: #ffffff;
+}
+
+.movie-search-content {
+  min-height: 75vh;
+  padding: 40px 8%;
+}
+
+/* Search box */
+
+.search-container {
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 40px;
+}
+
+.search-input {
+  flex: 1;
+  height: 40px;
+  padding: 0 15px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  outline: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 15px;
+}
+
+.search-button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: #333333;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  font-size: 14px;
+}
+
+/* Loader */
+
+.loader-container {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Movies */
+
+.movies-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.movie-list-item {
+  list-style-type: none;
+}
+
+/* No movies */
+
+.no-movies-container {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.no-movies-container img {
+  width: 280px;
+  max-width: 80%;
+}
+
+.no-movies-container h1 {
+  font-size: 24px;
+  margin-top: 25px;
+}
+
+/* Failure */
+
+.failure-view {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.failure-view h1 {
+  font-size: 24px;
+}
+
+.failure-view button {
+  margin-top: 15px;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* Tablet */
+
+@media screen and (max-width: 1024px) {
+  .movies-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+  .movie-search-content {
+    padding: 30px 20px;
+  }
+
+  .movies-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .search-container {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search-input {
+    height: 38px;
+  }
+
+  .search-button {
+    width: 80px;
+    height: 38px;
+  }
+
+  .movies-list {
+    gap: 10px;
+  }
+
+  .no-movies-container img {
+    width: 220px;
+  }
+}

@@ -1,0 +1,34 @@
+.movie-item {
+  list-style-type: none;
+  padding: 8px;
+}
+
+.movie-link {
+  display: block;
+  text-decoration: none;
+}
+
+.movie-poster {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.movie-poster:hover {
+  transform: scale(1.04);
+}
+
+@media screen and (max-width: 768px) {
+  .movie-poster {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .movie-poster {
+    height: 220px;
+  }
+}
